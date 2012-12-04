@@ -1,0 +1,10 @@
+
+hr {margin:10px 0 10px;}
+#chorelist ul li a.active {color: #BF0D1D}
+.brand {text-shadow: 0px 1px 0px white}
+body {background-color:#F2EBE8;
+    text-shadow: 0px 1px 0px white;}
+.container {
+        margin-top:60px;
+        background-color:#F2EBE8;}
+#id_number {height:1.25em; padding: .25em .25em;width:6.5em;font-size:24px; text-align: center;}

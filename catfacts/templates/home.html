@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+CatFacts!
+{% endblock %}
+
+
+
+
+{% block content %}
+	    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error{{ form.errors|pluralize }} below.
+        </p>
+    {% endif %}
+
+    <form action="" method="post">
+    	{% csrf_token %}
+        <ul>
+            {{ form.as_ul }}
+        </ul>
+        <input type="submit" value="Submit">
+    </form>
+<script> jQuery(function($){  $("#id_number").mask("999-999-9999",{placeholder:"  "});});</script>
+{% endblock %}
+
+
+
+
