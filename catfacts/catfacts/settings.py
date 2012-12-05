@@ -122,7 +122,8 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
      'django.contrib.admindocs',
      'kombu.transport.django',
-     'landing'
+     'djcelery',
+     'landing',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -156,3 +157,4 @@ LOGGING = {
 
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
+print "-----------------------> *******1922*************    " + str(dj_database_url.config())
