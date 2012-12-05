@@ -1,10 +1,40 @@
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+#id_number {font-family: 'Droid Sans Mono',monospace; text-align: center;}
+.hero-unit {  background-image: url(http://placekitten.com/g/900/400);
+  background-repeat: no-repeat; margin-bottom:0px;
+background-position:left;}
+#success {  background-image: url(http://placekitten.com/900/380);
+  background-repeat: no-repeat; margin-bottom:0px;
+background-position:left;}
 
-hr {margin:10px 0 10px;}
-#chorelist ul li a.active {color: #BF0D1D}
-.brand {text-shadow: 0px 1px 0px white}
-body {background-color:#F2EBE8;
-    text-shadow: 0px 1px 0px white;}
-.container {
-        margin-top:60px;
-        background-color:#F2EBE8;}
-#id_number {height:1.25em; padding: .25em .25em;width:6.5em;font-size:24px; text-align: center;}
+        .form-register {
+        max-width: 300px;
+        min-width:160px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+
+            .form-register .form-register-heading{
+        margin-bottom: 10px;
+      }
+      .form-register input[type="text"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }

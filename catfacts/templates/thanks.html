@@ -9,7 +9,44 @@ CatFacts!
 
 
 {% block content %}
-        <h3>Thanks for signing up for CatFacts!</h3>
+<div class="container-narrow">
+
+
+
+
+<div class="page-header">
+  <h1>CatFacts! <small>The coolest way to learn about cats.</small></h1>
+</div>
+
+
+
+    
+    <div class="hero-unit" id="success">
+
+
+
+
+
+
+        <form class="form-register" action="" method="post">
+            {% csrf_token %}
+            <h5 class="form-register-heading">Thanks for signing up for CatFacts!</h5>
+
+
+
+<div class="alert alert-success"><h6>Success! You should recieve your first CatFact soon.</h6></div>
+            
+
+
+
+
+        </form>
+
+
+    </div> 
+    <p class="muted pull-right"><small><a href="dylanpatrickclark.com">dylanpatrickclark.com</a></small></p>
+</div><!-- container -->
+
 {% endblock %}
 
 
