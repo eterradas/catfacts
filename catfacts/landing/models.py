@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.localflavor.us.models import PhoneNumberField
-from catfactsmsgagent import createmsgqueue as cmq
+from catfactsmsgqueue import createmsgqueue as cmq
 # Create your models here.
 
 class Recipient(models.Model):
