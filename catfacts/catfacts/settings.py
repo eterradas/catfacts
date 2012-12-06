@@ -128,6 +128,7 @@ INSTALLED_APPS = (
      'djcelery',
      'landing',
      'gunicorn',
+     'catfactsmsgqueue',
 )
 
 # A sample logging configuration. The only tangible logging
