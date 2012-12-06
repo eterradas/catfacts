@@ -1,1 +1,1 @@
-web: gunicorn catfacts/catfacts.wsgi
+web: python catfacts/manage.py run_gunicorn
