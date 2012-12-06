@@ -58,7 +58,7 @@ MEDIA_URL = ''
 # Example: "/home/media/media.lawrence.com/static/"
 #put PROJECT_PATH in myself...
 import os.path
-PROJECT_PATH = os.path.dirname(os.path.abspath(__file__)) ### delete first if causing problems
+PROJECT_PATH = '/app/catfacts' ### delete first if causing problems
 STATIC_ROOT = os.path.join(PROJECT_PATH, 'staticfiles')
 
 # URL prefix for static files.
