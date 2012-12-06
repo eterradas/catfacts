@@ -12,5 +12,6 @@ def send_sms(sms_to, sms_from, sms_body):
 									from_=sms_from,
 									body=sms_body
 									)
+    print "----------> *** CATFACT MSG EXEXCUTED"
 
 	return True

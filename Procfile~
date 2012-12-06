@@ -1,1 +1,1 @@
-web: python catfacts/catfacts/manage.py runserver 0.0.0.0:$PORT --noreload
+web: python catfacts/manage.py runserver 0.0.0.0:$PORT --noreload
