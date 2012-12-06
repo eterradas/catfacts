@@ -59,7 +59,7 @@ MEDIA_URL = ''
 #put PROJECT_PATH in myself...
 import os.path
 PROJECT_PATH = '/app/catfacts' ### delete first if causing problems
-STATIC_ROOT = os.path.join(PROJECT_PATH, 'staticfiles')
+STATIC_ROOT = os.path.join(PROJECT_PATH, 'staticfiles/')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
@@ -110,7 +110,7 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    os.path.join(PROJECT_PATH, 'static'),
+    os.path.join(PROJECT_PATH, 'templates'),
 )
 
 INSTALLED_APPS = (
