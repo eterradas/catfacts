@@ -1,4 +1,4 @@
-from sendsms import send_sms
+from tasks import send_sms
 from factlistgenerator import generate_cat_facts_message_sequence
 import datetime
 
@@ -7,7 +7,7 @@ def queue_msg_tasks_for_new_user(ToNum):
     FromNum = "+17694473276"
 
     catlist = generate_cat_facts_message_sequence()
-    catlist=catlist[0:1]
+    catlist = catlist[0:1]
 
     for index, msg in enumerate(catlist):
         delayAmount = 9*index # send a message every 9 hours (because cats have 9 lives!) Meow!

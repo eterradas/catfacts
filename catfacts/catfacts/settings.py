@@ -166,3 +166,4 @@ DATABASES['default'] =  dj_database_url.config()
 BROKER_BACKEND = 'django'
 import djcelery
 djcelery.setup_loader()
+BROKER_URL = "django://"
