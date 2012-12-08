@@ -1,6 +1,6 @@
 catfacts
 ========
 
-catfacts sms project to learn more about twillio api
+catfacts sms project to learn more about twillio api, heroku, django.
 
-requires celery, and access to the twillio api
+catfactssms.heroku.com
