@@ -30,3 +30,6 @@ celerybeat-schedule
 
 # emacs
 *~
+
+# being on a mac
+.DS_Store
