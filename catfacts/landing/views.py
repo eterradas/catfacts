@@ -1,11 +1,11 @@
 from django.shortcuts import render_to_response, HttpResponse, HttpResponseRedirect
 from django.http import Http404
-from landing.models import Recipient
-from landing.forms import RecipientForm
 from django.core.context_processors import csrf
 from django.db import IntegrityError, transaction
 from django.core.exceptions import ValidationError
-# Create your views here.
+
+from landing.models import Recipient
+from landing.forms import RecipientForm
 
 def add_recipient(request):
     c = {}
@@ -13,10 +13,10 @@ def add_recipient(request):
     if request.method == 'POST':
         form = RecipientForm(request.POST)
         if form.is_valid():
-            cd = form.cleaned_data
-            r = Recipient(number=cd['number'])
-            r.save()
-            r.start_catfacts()
+            cleaned_data = form.cleaned_data
+            recipient = Recipient(number=cleaned_data['number'])
+            recipient.save()
+            recipient.start_catfacts()
             return HttpResponseRedirect('/thanks')
     else:
         form = RecipientForm()
