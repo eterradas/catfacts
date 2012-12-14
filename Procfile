@@ -1,2 +1,2 @@
-web: python catfacts/manage.py run_gunicorn
-celeryd: python catfacts/manage.py celeryd -E -B --loglevel=INFO
+web: python manage.py run_gunicorn
+celeryd: python manage.py celeryd -E -B --loglevel=INFO
