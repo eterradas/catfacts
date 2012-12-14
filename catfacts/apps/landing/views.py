@@ -4,8 +4,8 @@ from django.core.context_processors import csrf
 from django.db import IntegrityError, transaction
 from django.core.exceptions import ValidationError
 
-from landing.models import Recipient
-from landing.forms import RecipientForm
+from catfacts.apps.landing.models import Recipient
+from catfacts.apps.landing.forms import RecipientForm
 
 def add_recipient(request):
     c = {}
