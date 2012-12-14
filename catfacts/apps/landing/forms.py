@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.localflavor.us.forms import USPhoneNumberField
 
-from landing.models import Recipient
+from models import Recipient
 
 RECIPIENT_FORM_ATTRIBUTES = {'placeholder': '(510) 555-0624', 
                              'class':'phone-input input-block-level'}

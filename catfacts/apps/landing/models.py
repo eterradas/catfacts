@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.localflavor.us.models import PhoneNumberField
 
-from catfactsmsgqueue import queue_msg_tasks_for_new_user
+from catfacts.apps.catfactsmsgqueue.createmsgqueue import queue_msg_tasks_for_new_user
 
 class Recipient(models.Model):
     number = PhoneNumberField(unique=True)
