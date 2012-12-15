@@ -33,3 +33,6 @@ celerybeat-schedule
 
 # being on a mac
 .DS_Store
+
+#dont share the secret file!
+SECRET_FILE

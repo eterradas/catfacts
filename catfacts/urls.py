@@ -2,7 +2,7 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-from catfacts.apps.landing import views
+from apps.landing import views
 
 urlpatterns = patterns('',
     url(r'^$', views.add_recipient),
