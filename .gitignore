@@ -28,11 +28,14 @@ pip-log.txt
 
 celerybeat-schedule
 
-# emacs
+# Testing related dbs
+*.db
+
+# Emacs
 *~
 
-# being on a mac
+# The Mac-ness
 .DS_Store
 
-#dont share the secret file!
+# Dont share the secret file!
 SECRET_FILE
