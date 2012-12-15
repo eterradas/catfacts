@@ -152,7 +152,7 @@ BROKER_URL = "django://"
 
 
 ########## URL CONFIGURATION
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'catfacts.urls'
 ########## END URL CONFIGURATION
 
 
